@@ -19,3 +19,4 @@ jobs:
         commands: |
             echo "Minimal"
             test `uname -m` = 'aarch64'
+            lscpu
